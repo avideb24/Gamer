@@ -325,6 +325,10 @@ footer{
 }
 
 @media screen and (max-width:767px){
+    .header-wrapper{
+        flex-direction: column;
+        gap: 10px;
+    }
     .hero-wrapper{
         flex-direction: column;
         gap: 50px;
@@ -344,10 +348,6 @@ footer{
 }
 
 @media screen and (max-width:575px){
-    .header-wrapper{
-        flex-direction: column;
-        gap: 10px;
-    }
     .banner-wrapper{
         flex-direction: column;
         padding-top: 30px;
